@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../ui/Navbar';
 import CalendarEvent from './CalendarEvent';
+import CalendarModal from './CalendarModal';
 import { messages } from '../../helpers/calendar-messages-es';
 
 import moment from 'moment';
@@ -71,6 +72,8 @@ const CalendarScreen = () => {
           event: CalendarEvent
         }}
       />
+
+      <CalendarModal />
     </div>
   )
 }
