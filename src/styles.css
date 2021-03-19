@@ -52,4 +52,5 @@ html, body {
   max-width: 60vw;
   outline: none;
   padding: 10px;
+  overflow-y: auto;
 }
